@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Repos</id>
+    <version>1.0.0</version>
+    <authors>Repos</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="DataContext" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Features" version="5.0.16" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\LeNoVo\OneDrive\Desktop\Last one working right now\MVC and API\Amazon-Clone---ITI-final-project\Repos\bin\Release\net5.0\Repos.dll" target="lib\net5.0\Repos.dll" />
+  </files>
+</package>
